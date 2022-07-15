@@ -1,0 +1,205 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root{
+  --blue : #1320DC;
+  --text-gray : #77798C;
+  --pink : #FB0A72;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+::-webkit-scrollbar {
+  width: .5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1320DC;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(19, 32, 220, 0.8);
+}
+
+body {
+  font-size: 1.6rem !important;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif !important;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-top{
+    width: 88%;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C4C8C5;
+}
+.header-top-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 295px;
+    height: 45px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+.header-top-search input{
+    width: 90%;
+    height: 100%;
+    padding: 0rem 1rem 0rem 1rem;
+    color: var(--text-gray);
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.header-top-search input:hover{
+    outline: none;
+}
+.fa-magnifying-glass{
+    width: 20%;
+    color: #1320DC;
+}
+.haeder-top-logo{
+    cursor: pointer;
+}
+.haeder-top-logo span{
+    color: #1320DC;
+}
+#language{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+#devise{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.button-connexion{
+    color: var(--blue);
+    padding: 1rem;
+    margin-right: 0.2rem; 
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+    background-color: #fff;
+}
+.button-connexion:hover{
+    color: #fff;
+    background-color: var(--blue);
+    cursor: pointer;
+}
+.button-inscription{
+    color: white;
+    padding: 1rem; 
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+    background-color: var(--blue);
+}
+.button-inscription:hover{
+    color: var(--blue);
+    background-color: #fff;
+    cursor: pointer;
+}
+.header-navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 70px;
+}
+.header-navbar ul a{
+    color: var(--text-gray);
+    text-decoration: none;
+    padding: 0.3rem 0rem 0.3rem 0rem;
+    margin: 0rem 0.6rem 0rem 0.6rem;
+}
+.header-navbar ul a:hover{
+    color: var(--blue);
+}
+.header-banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../icons/Groupe-45.png');
+    background-size: cover;
+}
+.header-banner-text{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 9rem;
+}
+.header-banner-text h1{
+    font-size: 40px;
+    color: #fff;
+    padding-bottom: 4rem;
+}
+.header-banner-text p{
+    font-size: 22px;
+    color: #fff;
+    padding-bottom: 4rem;
+}
+.button-buy{
+    color: #fff;
+    font-size: 16px;
+    width: 200px;
+    padding: 1.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--pink);
+    cursor: pointer;
+}
+.main-choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+.main-choice-preference{
+    display: flex;
+    width: 30%;
+    height: 60%;
+    margin-right: 1rem;
+    border-radius: 5px;
+    border: 1px solid var(--text-gray);
+    cursor: pointer;
+}
+.preference-title{
+    color: var(--blue);
+    font-size: 20px;
+    width: 40%;
+}
+.preference-image{
+    width: 60%;
+    height: 100%;
+}
+.preference-image img{
+    width: 100%;
+    height: 100%;
+}
