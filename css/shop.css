@@ -116,6 +116,7 @@ header{
 .button-inscription{
     color: white;
     padding: 1rem; 
+    border: 2px solid var(--blue);
     border-radius: 5px;
     background-color: var(--blue);
 }
@@ -140,105 +141,46 @@ header{
 .header-navbar ul a:hover{
     color: var(--blue);
 }
-.header-banner{
-    width: 100%;
-    height: 100vh;
-    background-image: url('../icons/Groupe-45.png');
-    background-repeat: no-repeat;
-    background-size: 110% 100%;
-}
-.header-banner-text{
-    width: 55%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 9rem;
-}
-.header-banner-text h1{
-    font-size: 40px;
-    color: #fff;
-    padding-bottom: 4rem;
-}
-.header-banner-text p{
-    font-size: 22px;
-    color: #fff;
-    padding-bottom: 4rem;
-}
-.button-buy{
-    color: #fff;
-    font-size: 16px;
-    width: 200px;
-    padding: 1.5rem 2rem;
-    border: none;
-    border-radius: 5px;
-    background-color: var(--pink);
-    cursor: pointer;
-}
-.header-choice{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 88%;
-    height: 320px;
-    border-radius: 5px;
-}
-.header-choice-preference{
-    display: flex;
-    width: 32.5%;
-    height: 60%;
-    border-radius: 5px;
-    border: 1px solid var(--text-gray);
-    cursor: pointer;
-}
-.preference-title{
-    color: var(--blue);
-    font-size: 20px;
-    width: 40%;
-}
-.preference-image{
-    width: 60%;
-    height: 100%;
-}
-.preference-image img{
-    width: 100%;
-    height: 100%;
-}
 main{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+    background-color: #f1f1f1;
 }
-.main-left{
+
+.main-top-image{
+    width: 88%;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    background-image: url('../images/Untitled-4.jpg');
+    background-size: cover;
+}
+.main-top-image-label{
     display: flex;
     justify-content: center;
-    width: 20%;
-    padding-top: 1rem;
-    background-color: #fff;
+    align-items: center;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
 }
-.main-left-navbar{
-    list-style: none;
-    width: 80%;
-}
-.main-left-navbar li a{
-    display: block;
-    width: 100%;
-    padding: 1rem 0rem 1rem 1rem;
-    text-decoration: none;
-    font-size: 20px;
-    border-bottom: 1px solid var(--text-gray);
+.main-top-image-label h1{
+    color: #fff; 
+    font-size: 40px;
 }
 .main-right{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 80%;
-    padding: 2rem 0.5rem 2rem 0.5rem;
-    background-color: #f1f1f1;
+    width: 88%;
+    padding: 2rem 0rem 2rem 0rem;
 }
 .main-right-article{
-    width: 23.5%;
-    height: 380px;
+    width: 24%;
+    height: 430px;
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 0.5rem;
