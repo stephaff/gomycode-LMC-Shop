@@ -18,18 +18,6 @@ function closeSlideBar(){
     slideBar.classList.remove('translate');
 }
 
-let btnBuyArticles = document.querySelectorAll('.main-right-article-button-buy');
-
-console.log(btnBuyArticles);
-
-btnBuyArticles.forEach((btnBuyArticle) =>{
-    btnBuyArticle.addEventListener('click', acheter);
-});
-
-function acheter(){
-    location = 'details--articles.html'
-}
-
 let logo = document.querySelector('.haeder-top-logo');
 
 logo.addEventListener('click', actionLogo);

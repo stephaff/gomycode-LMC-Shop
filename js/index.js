@@ -29,7 +29,6 @@ btnBuyArticles.forEach((btnBuyArticle) =>{
 function acheter(){
     location = 'details--articles.html'
 }
-
 let logo = document.querySelector('.haeder-top-logo');
 
 logo.addEventListener('click', actionLogo);
