@@ -38,3 +38,6 @@ function displayClientNavbarOn(){
 function displayClientNavbarOff(){
     document.querySelector('.client-navbar').classList.remove('display-client-navbar');
 }
+
+
+
