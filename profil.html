@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/profil.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>LMC-Shop</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-top">
+                <div class="header-top-search">
+                    <input type="text" name="searchBar" id="searchBar" placeholder="Rechercher un produit...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <h2 class="haeder-top-logo"><span>LMC-</span>Shop</h2>
+                <div class="header-top-options">
+                    <select name="language" id="language">
+                        <option value="francais">Français</option>
+                        <option value="anglais">Anglais</option>
+                        <option value="chinois">Chinois</option>
+                    </select>
+                    <select name="devise" id="devise">
+                        <option value="francais">XOF</option>
+                        <option value="anglais">USD</option>
+                        <option value="chinois">STR</option>
+                    </select>
+                    <div class="client">
+                        <div class="client-avatar">
+                            <img src="icons/Ellipse 1.png" alt="avatar">
+                        </div>
+                        <p class="client-name">Stephane Affali</p>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="cart">
+                <button class="quantity">1</button>
+                <i class="fa-solid fa-bag-shopping bag"></i>
+            </div>
+            <div class="slide-bar">
+                <div class="slide-bar-top">
+                    <div class="slide-bar-top-details">
+                        <p class="slide-bar-top-details-label"><i class="fa-solid fa-bag-shopping cart-bag"></i>3 articles</p>
+                        <button class="slide-bar-button-close">x</button>
+                    </div>
+                    <div class="slide-bar-top-cart">
+                        <div class="slide-bar-top-cart-quantity">
+                            <button class="slide-bar-top-cart-quantity-btn-plus cart-btn">+</button>
+                            <span class="slide-bar-top-cart-quantity-value">1</span>
+                            <button class="slide-bar-top-cart-quantity-btn-moins cart-btn">-</button>
+                        </div>
+                        <div class="slide-bar-top-cart-article">
+                            <div class="slide-bar-top-cart-article-image">
+                                <img src="images/jupe.png" alt="">
+                            </div>
+                            <p>Jupe volante<br> 2000 F<br><br>3 unités</p>
+                        </div>
+                        <button class="slide-bar-button-close">x</button>
+                    </div>
+                </div>
+                <div class="slide-bar-bottom">
+                    <a href="">Avez-vous un coupon ?</a>
+                    <p class="slide-bar-bottom-price">
+                        <span> Mon panier </span><span class="command-price">1 002 000frs</span>
+                    </p>
+                </div>
+            </div>
+            <div class="main-right">
+                <div class="main-right-content">
+                    <div class="profil-navbar">
+                        <a href="" class="profil-navbar-profil" style="color: var(--blue);">Profil</a>
+                        <a href="" class="profil-navbar-profil">Changer de mot de passe</a>
+                        <a href="" class="profil-navbar-profil">Mes commandes</a>
+                    </div>
+                    <div class="main-right-details">
+                        <div class="main-right-total">
+                            <div class="main-right-total-informations">
+                                <div class="main-right-total-drag-files">
+                                    <!-- drag files -->
+                                </div>
+                                <label for="nom">Votre nom</label>
+                                <input type="text" placeholder="votre nom" id="nom">
+                                <label for="bio">Votre bio</label>
+                                <textarea name="" id="bio" cols="30" rows="4">Dites quelques choses à propos de vous ...</textarea>
+                                <button class="btn-buy">Acheter</button>
+                            </div> 
+                        </div>
+                        <div class="main-right-total">
+                            <div class="main-right-contact">
+                                <p class="main-right-total-telephone"><span>Numéro de téléphone</span><span class="telephone">12222222222222</span></p> 
+                                <a href="" class="add-contact" style="text-decoration: none;">Ajouter un contact</a>
+                            </div> 
+                        </div>
+                        <div class="main-right-total">
+                            <p class="another-adress"><span>Différentes adresses</span><a href="" style="text-decoration: none;">Ajouter une adresse</a></p>
+                            <div class="address">
+                                <div class="home-address">
+                                    <h3 class="home-address-title">Maison</h3>
+                                    <p class="home-address-details">Riviera Bonoumin non loin de Abidjan Mall</p>
+                                </div>
+                                <div class="job-address">
+                                    <h3 class="job-address-title">Travail</h3>
+                                    <p class="job-address-details">Riviera Bonoumin non loin de Abidjan Mall</p>
+                                </div>
+                                <div class="home-address">
+                                    <h3 class="home-address-title">Maison</h3>
+                                    <p class="home-address-details">Riviera Bonoumin non loin de Abidjan Mall</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </main>
+        <footer>
+            <p>Tous droits réservés par &copy <a href="">LMC-Shop</a></p>
+        </footer>
+        <script src="js/profil.js"></script>
+        <script src="js/all.min.js"></script>
+    </div>
+</body>
+</html>
