@@ -26,8 +26,21 @@ btnBuyArticles.forEach((btnBuyArticle) =>{
     btnBuyArticle.addEventListener('click', acheter);
 });
 
+btnBuyArticles.forEach((btnBuyArticle) =>{
+    btnBuyArticle.addEventListener('mouseover', zoom);
+});
+
+btnBuyArticles.forEach((btnBuyArticle) =>{
+    btnBuyArticle.addEventListener('mouseleave', zoom);
+});
+
 function acheter(){
     location = 'details--articles.html'
+}
+
+function zoom(){
+    console.log(this.parentElement.previousElementSibling.previousElementSibling.children[0]);
+    this.parentElement.previousElementSibling.previousElementSibling.children[0].classList.toggle('zoom');
 }
 
 let logo = document.querySelector('.haeder-top-logo');
