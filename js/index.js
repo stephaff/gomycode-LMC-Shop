@@ -49,3 +49,9 @@ function actionLogo(){
     location = 'index.html';
 }
 
+window.onload = essai;
+
+function essai(){
+    document.querySelector('.loader').classList.add('loaderOff');
+}
+
