@@ -52,6 +52,10 @@ function actionLogo(){
 window.onload = essai;
 
 function essai(){
-    document.querySelector('.loader').classList.add('loaderOff');
+    // juste pour voir l'effet
+    setInterval(() => {
+        document.querySelector('.loader').classList.add('loaderOff');  
+    }, 5000);
+    // document.querySelector('.loader').classList.add('loaderOff');
 }
 

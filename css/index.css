@@ -51,7 +51,6 @@ body {
     height: 100vh;
     background-color: #fff;
     z-index: 2;
-    /* border: 1px solid red; */
 }
 .loaderOff{
     display: none;
@@ -69,7 +68,6 @@ body {
     }
 }
 .circle{
-    /* position: relative; */
     width: 110px;
     height: 110px;
     border: 2px dotted var(--blue);
@@ -80,7 +78,7 @@ body {
     visibility: hidden;
     opacity: 0;
     transform: scale(0);
-    animation: loader 2s alternate infinite;
+    animation: loader 3s alternate infinite;
 }
 .circle h4{
     font-size: 16px;
