@@ -196,6 +196,17 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    animation: fadeInleft 1.4s both;
+}
+@keyframes fadeInleft {
+    0%{
+        opacity: 0;
+        transform: translate(-40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
 }
 .main-articles-left-top{
     height: 75%;
@@ -226,6 +237,17 @@ main{
     width: 38%;
     height: 95%;
     padding-left: 1.5rem;
+    animation: fadeInRight 1.4s both;
+}
+@keyframes fadeInRight {
+    0%{
+        opacity: 0;
+        transform: translate(40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
 }
 .main-articles-top-right h2{
     font-size: 30px;
