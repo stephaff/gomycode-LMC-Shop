@@ -163,6 +163,7 @@ main{
     border-bottom-left-radius: 5px;
     background-color: var(--blue);
     cursor: pointer;
+    animation: fadeInLeft 1.4s both;
 }
 .quantity{
     position: absolute;
@@ -298,6 +299,17 @@ main{
     margin-bottom: 1rem;
     background-image: url('../images/Untitled-4.jpg');
     background-size: cover;
+    animation: fadeInLeft 1.4s both;
+}
+@keyframes fadeInLeft {
+    0%{
+        opacity: 0;
+        transform: translate(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
 }
 .main-top-image-label{
     height: 100%;
@@ -323,6 +335,17 @@ main{
     align-items: center;
     width: 88%;
     padding: 2rem 0rem 2rem 0rem;
+    animation: fadeBottom 1.4s both;
+}
+@keyframes fadeBottom {
+    0%{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 .main-right-article{
     width: 24%;
